@@ -2,6 +2,10 @@
 
 Pytorch Implementation of Deep Q Network  (DQN) for the ABB YuMi Robot Arm manipulating a block on a plane using an OpenAI Gym environment. The code is designed to train an agent to perform planar pushing task when dealing with external peturbances where the end goal is to reach a goal destination with defined orientation. This project is done to establish and Reinforcement Learning platform to do other tasks like peg in hole assembly and learning ambidextrous object manipulation policies when encountering semi deformable objects.
 
+
+https://github.com/HariKrishnan06082k/RL_DQN_Planar_Pushing_ABB/assets/78609830/b0e092ee-bafa-44ef-b2d3-a0c3b3e8edd6
+
+
 ---
 
 ## Tech Stack

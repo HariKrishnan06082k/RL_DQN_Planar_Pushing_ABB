@@ -1,0 +1,15 @@
+For training give following arguments : 
+ 
+python DQN.py --train_mode 1 --output_path /home/vision/harik/rl-robot/weights/ 
+ 	
+For testing give following arguments :
+ 
+python DQN.py --train_mode 0 --output_path /home/vision/harik/rl-robot/weights/ --plot_heatmap 1
+ 	
+For training YumI give following arguments:
+
+python RL-Robot-DQN-YuMi.py --train_mode 1 --output_path /home/hariksee/Desktop/RL-DQN-Yumi/robot-weights/ --num_eps 61 --batch_size 64
+
+For testing learned Inference live give following arguments:
+
+python RL-Robot-DQN-YuMi.py --train_mode 0 --output_path /home/hariksee/Desktop/RL-DQN-Yumi/robot-weights/target_model_final.pth  
